@@ -1,0 +1,116 @@
+/* Container Styles */
+.skills-container {
+  background-color: #0a192f;
+  color: #d1d5db;
+}
+
+.flex-container {
+  flex-direction: column;
+}
+
+.max-width-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+/* Section Heading Styles */
+.section-heading {
+  text-align: center;
+}
+
+.title-text {
+  font-size: 2.25rem;
+  font-weight: bold;
+  border-bottom-width: 0.25rem;
+  border-color: #d53f8c;
+}
+
+.description-text {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* flex Container Styles */
+.flex-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+/* Image Card Styles */
+.image-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.274), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  background-color: #0b182e;
+
+
+}
+
+.hover-scale:hover {
+  transform: scale(1.1);
+}
+
+.duration-500 {
+  transition-duration: 0.5s;
+}
+
+.skill-img {
+  width: 150px;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 0.625rem; 
+}
+
+.icon-text {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 600px) {
+  .flex-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+}

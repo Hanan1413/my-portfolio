@@ -1,0 +1,115 @@
+.navbar {
+  max-width: 1200px;
+  width: 80%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  opacity: 1;
+  background-color: #0a192f;
+  color: aliceblue;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar ul li a {
+  list-style-type: none;
+  transition: 0.5s;
+}
+ul li a:hover {
+  color: pink;
+}
+
+.open-menu {
+  display: flex;
+}
+/* Humburger */
+
+.menu {
+  display: none;
+}
+
+/* mobile menu */
+
+.mobile-hidden {
+  display: hidden;
+}
+
+/* Mobile menu */
+
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #0a192f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.mobile-hidden {
+  display: none;
+}
+
+/* humburger */
+.humburger {
+  z-index: 10;
+  transition: all 0.8s ease;
+}
+.logo {
+  z-index: 10;
+}
+.mobile-items {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 2.25rem /* 36px */;
+  line-height: 2.5rem;
+}
+
+.logo {
+  font-family: "Arial", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+/* logo styles */
+.logo-initial {
+  color: rgba(219, 39, 120, 0.575);
+}
+
+.logo-name {
+  color: #ccd6f6;
+}
+
+@media (min-width: 600px) {
+  .navbar {
+    width: 80%;
+  
+  }
+
+  .menu {
+    display: flex;
+  }
+  .humburger {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .navbar ul li {
+    margin-left: 30px;
+  }
+}

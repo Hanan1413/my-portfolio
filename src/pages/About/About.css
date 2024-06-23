@@ -1,0 +1,46 @@
+
+
+.about {
+ 
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.5rem;
+}
+
+.title {
+  font-weight: bold;
+  color: rgb(209, 213, 219);
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  border-bottom-width: 4px;
+  opacity: 1;
+  border-color: rgb(219 39 119);
+  margin-right: auto;
+  align-self: center;
+}
+
+.paragraph {
+  margin-top: 1.5rem;
+
+  max-width: 800px;
+  margin-right: auto;
+  height: 100vh;
+}
+
+@media (min-width: 650px) {
+  .about {
+    font-size: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .about-text{
+    font-size: 1.5rem;
+    color:rgba(209, 213, 219, 0.801);
+    opacity: 5;
+    line-height: 35px;
+    
+    
+  }
+}
