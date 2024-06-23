@@ -1,13 +1,15 @@
 # Hanan Ibrahim's Portfolio
 
+![Project](assets/page.JPG)
+
 Welcome to my personal portfolio website! This project showcases my skills, projects, and contact information as a Frontend Developer.
 
 ## Table of Contents
+
 - [About](#about)
 - [Features](#features)
 - [Technologies](#technologies)
 - [Installation](#installation)
-
 
 ## About
 
@@ -37,3 +39,4 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/your-portfolio.git
+   ```
