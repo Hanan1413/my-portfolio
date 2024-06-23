@@ -12,14 +12,18 @@ function Navbar() {
     <div className="navbar">
       {nav && (
         <div className="logo">
-          <span className="logo-initial">H</span>
-          <span className="logo-name">anan</span>
+          <Link to="/">
+            <span className="logo-initial">H</span>
+            <span className="logo-name">anan</span>
+          </Link>
         </div>
       )}
       <div>
         <div className="logo">
-          <span className="logo-initial">H</span>
-          <span className="logo-name">anan</span>
+          <Link to="/">
+            <span className="logo-initial">H</span>
+            <span className="logo-name">anan</span>
+          </Link>
         </div>
       </div>
 
@@ -44,9 +48,7 @@ function Navbar() {
 
       {/* Hamburger */}
       <div onClick={handleClick} className="humburger">
-        {!nav ? <FaBars /> 
-        
-        : <FaTimes />}
+        {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* Mobile menu */}
