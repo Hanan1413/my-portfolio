@@ -8,8 +8,8 @@ import React from "../assets/react.png";
 export const data = [
   {
     id: 1,
-    title: "Blog App",
-    desc: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum laudantium eius dicta aliquid earum deserunt corporis molestias quo. Dolor magni veniam perferendis minima quo expedita consequatur ",
+    title: "bookmark landing page react",
+    desc: "The Bookmark Landing Page project is an innovative website built with React.js.  Its primary goal is to offer users a seamless and user-friendly platform for efficient bookmark management and organization. ",
     image: WorkIm,
     live: "https://codepen.io/Hanan-Ibrahim/pen/dywMmRx",
   },

@@ -7,7 +7,7 @@ const SingleProject = ({ project }) => {
     <div>
       <div className="flex-item ">
         <div>
-          <h1
+          <h2
             style={{
               marginBottom: "10px",
               fontSize: "2rem",
@@ -15,7 +15,7 @@ const SingleProject = ({ project }) => {
             }}
           >
             {title}
-          </h1>
+          </h2>
           <p>{desc}</p>
 
           <div className="buttons">
