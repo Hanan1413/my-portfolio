@@ -50,8 +50,7 @@
 }
 
 .description-text {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1.5rem;
 }
 
 /* flex Container Styles */
@@ -80,8 +79,6 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.274), 0 1px 3px rgba(0, 0, 0, 0.08);
   padding: 2rem;
   background-color: #0b182e;
-
-
 }
 
 .hover-scale:hover {
@@ -96,7 +93,7 @@
   width: 150px;
   margin: auto;
   padding-top: 2rem;
-  padding-bottom: 0.625rem; 
+  padding-bottom: 0.625rem;
 }
 
 .icon-text {
