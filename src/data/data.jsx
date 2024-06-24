@@ -1,5 +1,5 @@
 import LandPage from "../assets/projects/lnadmark-page.png";
-import RealEst from "../assets/projects/realestate.jpg";
+import Bloger from "../assets/projects/bloger.png";
 import CSS from "../assets/css.png";
 import HTML from "../assets/html.png";
 import JavaScript from "../assets/javascript.png";
@@ -15,23 +15,23 @@ export const data = [
   },
   {
     id: 2,
-    title: "E-commerce  App",
+    title: "Tesla home page clone ",
     desc: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum laudantium eius dicta aliquid earum deserunt corporis molestias quo. Dolor magni veniam perferendis minima quo expedita consequatur ",
-    image: RealEst,
+    image: LandPage,
     live: "https://www.realstar.ca/",
   },
   {
     id: 3,
-    title: "Food Delivery App",
-    desc: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum laudantium eius dicta aliquid earum deserunt corporis molestias quo. Dolor magni veniam perferendis minima quo expedita consequatur ",
-    image: LandPage,
-    live: "",
+    title: "Bloger",
+    desc: "The Blogger Landing Page is focused on creating modren and responsive landing page for a blogging platform. The page was built using HTML, CSS and JavaScript.",
+    image: Bloger,
+    live: "https://bloger-landing-page-chi.vercel.app/",
   },
   {
     id: 4,
     title: "inspration",
     desc: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum laudantium eius dicta aliquid earum deserunt corporis molestias quo. Dolor magni veniam perferendis minima quo expedita consequatur ",
-    image: RealEst,
+    image: LandPage,
     live: "",
   },
 ];
