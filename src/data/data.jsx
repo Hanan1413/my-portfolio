@@ -1,6 +1,8 @@
-import LandPage from "../assets/projects/tesla.png";
+import LandPage from "../assets/projects/lnadmark-page.png";
 import Bloger from "../assets/projects/bloger.png";
 import Blog from "../assets/projects/blog.png";
+import Tesla from "../assets/projects/tesla.png";
+
 import CSS from "../assets/css.png";
 import HTML from "../assets/html.png";
 import JavaScript from "../assets/javascript.png";
@@ -33,7 +35,7 @@ export const data = [
     id: 4,
     title: "Tesla home page clone ",
     desc: "This project is a similar clone of the Tesla website, featuring a modern mega menu and reusable components for the homepage using React.js.",
-    image: LandPage,
+    image: Tesla,
     live: "https://tesla-clone-8dnk.vercel.app/",
   },
 ];
