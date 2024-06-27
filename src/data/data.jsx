@@ -1,4 +1,4 @@
-import LandPage from "../assets/projects/lnadmark-page.png";
+import LandPage from "../assets/projects/tesla.png";
 import Bloger from "../assets/projects/bloger.png";
 import Blog from "../assets/projects/blog.png";
 import CSS from "../assets/css.png";
@@ -25,16 +25,16 @@ export const data = [
   {
     id: 3,
     title: "Blog App",
-    desc: "The Blog app built using ReactJS and firebase as backend to fetch data",
+    desc: "The Blog app built using ReactJS and firebase as backend to fetch data.",
     image: Blog,
     live: "https://blog-app-i3i4.vercel.app/",
   },
   {
     id: 4,
     title: "Tesla home page clone ",
-    desc: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum laudantium eius dicta aliquid earum deserunt corporis molestias quo. Dolor magni veniam perferendis minima quo expedita consequatur ",
+    desc: "This project is a similar clone of the Tesla website, featuring a modern mega menu and reusable components for the homepage using React.js.",
     image: LandPage,
-    live: "https://www.realstar.ca/",
+    live: "https://tesla-clone-8dnk.vercel.app/",
   },
 ];
 

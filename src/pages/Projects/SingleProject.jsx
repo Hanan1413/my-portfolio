@@ -16,7 +16,7 @@ const SingleProject = ({ project }) => {
           >
             {title}
           </h2>
-          <p>{desc}</p>
+          <p className="desc">{desc}</p>
 
           <div className="buttons">
          
