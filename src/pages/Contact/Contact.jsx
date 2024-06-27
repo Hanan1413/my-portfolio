@@ -9,7 +9,7 @@ function Contact() {
         <p className="font-size"> Cellphone: 0569382756</p>
       </div>
       <div className="contact-card hover-scale duration-500 ">
-        <p className="font-size"> Email: ihanan977@gmail.com</p>
+        <p className="font-size"> Email: ibrahimhanan471@gmail.com </p>
       </div>
     </div>
   );
