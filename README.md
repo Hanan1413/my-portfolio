@@ -9,7 +9,6 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - [About](#about)
 - [Features](#features)
 - [Technologies](#technologies)
-- [Installation](#installation)
 
 ## About
 
@@ -32,11 +31,4 @@ This project was built using the following technologies:
 - **CSS:** For styling the components.
 - **Vercel:** For hosting the website.
 
-## Installation
 
-To run this project locally, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/your-portfolio.git
-   ```
